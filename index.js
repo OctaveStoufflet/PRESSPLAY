@@ -13,7 +13,7 @@ var crashSound = new Audio("sounds/crash.mp3");
 var button = new Audio("sounds/button.mp3");
 var techno = new Audio("sounds/surrender.mp3");
 var gameOver = new Image("image/gameover.jpg");
-//---------------------------------------- SHOW/HIDE BUTTONS
+//---------------------------------------- SHOW/HIDE BUTTONS MENU & RULES
 function toggle_visibility() {
   var rules = document.getElementById("rules");
   if (rules.style.display == "block") rules.style.display = "none";
