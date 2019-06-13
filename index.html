@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PRESS SPACE</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <h1>PRESS SPACE</h1>
+
+    <div id="modal">
+      <img src="image/gameover.jpg" alt="gameover" />
+    </div>
+
+    <section>
+      <div>
+        <button
+          id="btn1"
+          class="bouton"
+          onclick="startGame()"
+          onmousedown="button.play()"
+        >
+          NEW GAME
+        </button>
+
+        <button id="btn2" class="bouton hidden" onclick="restart()">
+          MENU
+        </button>
+
+        <button
+          id="btn3"
+          class="bouton"
+          onmousedown="button.play()"
+          onclick="toggle_visibility('rules');"
+        >
+          RULES
+        </button>
+        <br />
+        <div id="rules" class="hidden">
+          Rules are simple : you just have to <span>PRESS SPACE</span> when an
+          obstacle arrives ! Good luck :) <br />
+          Click on new game to start !
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
