@@ -52,6 +52,7 @@ function randGap() {
 function openModal() {
   document.getElementById("modal").style.display = "block";
   document.getElementById("modal").style.position = "absolute";
+  // document.getElementById("modal").style.marginTop = "-500px";
   document.getElementById("modal").style.marginLeft = "270px";
 }
 //---------------------------------------- SCORE
