@@ -44,7 +44,7 @@ function everyInterval(n) {
 function jump() {
   player.speedY = -2;
 }
-//---------------------------------------- GAP BETWEEN OBSTACLES TESTESTEST
+//---------------------------------------- GAP BETWEEN OBSTACLES
 function randGap() {
   return Math.floor(minGap + Math.random() * (maxGap - minGap + 1));
 }
